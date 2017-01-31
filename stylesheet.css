@@ -1,0 +1,151 @@
+body, h1, h2, h3, h4, h5, h6, p, div, ul, li{
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper{
+	width: 700px;
+	margin: 20px auto;
+	background: #666;
+}
+#header{
+	width: 700px;
+	background-color: #666;
+	height: 68px;
+	text-align: center;
+	
+}
+#header h1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+}
+
+#line{
+	width: 700px;
+	background: #666;
+	height: 1px;
+}
+
+#links{
+	width: 700px;
+	background-color: #666;
+}
+#nav{
+	width: 384px;
+	background-color: #666;
+	height: 36px;
+	margin: 0 auto;
+}
+#nav ul{
+	list-style: none;
+}
+#nav ul li{
+	float: left;
+}
+#nav ul li a{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	background: #000;
+	width: 80px;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	margin: 7px;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #000;
+	
+	background: -moz-linear-gradient(top, #666 #333);
+	background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#333));
+}
+#nav ul li a:hover{
+	background: #333;
+    background: -moz-linear-gradient(top, #000 #666);
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#666));
+}
+
+#nav ul li a.current, #nav ul li a.current:hover{
+	background: #333;
+	background: -moz-linear-gradient(top, #000 #666);
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#666));
+    color: #f63;
+	cursor: default;
+}
+
+#about{
+	width: 700px;
+	background: #333px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#content{
+	width: 430px;
+	margin: 0 auto;
+	background: #222;
+	border: 1px solid #000;
+	
+	background: -moz-linear-gradient(top, #666, #333, #222);
+	background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#222), color-stop(0.5, #333));
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+	
+	box-shadow: 1px 1px 4px #000;
+	-moz-box-shadow: 1px 1px 4px #000;
+	-webkit-box-shadow: 1px 1px 4px #000;
+	}
+#content img{
+	float: left;
+	border: 1px solid #000;
+	background: #333;
+	padding: 0.3em;
+	
+	
+	background: -moz-linear-gradient(top, #000, #333);
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+	
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+#content h4{
+	color: #fff;
+	padding: 0.8em 0 0 0;
+	
+}
+#content p{
+	color: #fff;
+	font-size: 0.7em;
+	padding: 0.7em;
+	line-height: 1.4em;
+	
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
